@@ -1,64 +1,80 @@
 <style>
-p{
-    font-family: Verdana;
-    margin: 0 0;
+
+  .text{
+      font-family: Verdana;
+      margin: 0 0;
   }
 
-.course-title{
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
+  .button{
+      margin: 0 0;
+      text-align: left;
   }
 
-.tagline{
-    font-size: 18px; 
-    color: #606060;
-    margin-bottom: 20px;
+  .course-title{
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: -15px;
   }
 
-.course-description{
-    font-size: 18px; 
-    width: 360px;
-    margin-bottom: 20px;
+  .tagline{
+      font-size: 18px; 
+      color: #606060;
   }
 
-.get-started-button{
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
-    cursor: pointer;
-    transition: 
-      opacity 0.15s,
-      box-shadow 0.12s;
+  .course-description{
+      font-size: 18px; 
+      width: 360px;
+      margin-bottom: 20px;
   }
 
-.get-started-button:hover{
-    opacity: 0.8;
-    box-shadow: 2px 4px 4px 2px #00000030;
-}
+  .get-started-button{
+      font-family: Verdana;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: 
+          opacity 0.15s,
+          box-shadow 0.12s;
+  }
 
-.get-started-button:active{
-    opacity: 0.6;
-    margin: 2px 4px;
-    box-shadow: none;
-}
+  .get-started-button:hover{
+      opacity: 0.8;
+      box-shadow: 2px 4px 4px 2px #00000030;
+  }
+
+  .get-started-button:active{
+      opacity: 0.6;
+      margin: 2px 4px;
+      box-shadow: none;
+  }
 
 </style>
 
-<p class="course-title">
-    HTML CSS Course
-</p>
+<div class="text">
 
-<p class="tagline">
-    Beginner to Pro
-</p>
+    <p class="course-title">
+        HTML CSS Course
+    </p>
 
-<p class="course-description">
-    In this course, we'll learn the skills you need to become a developer.
-</p>
+    <p class="tagline">
+        Beginner to Pro
+    </p>
 
-<button class="get-started-button">
-    Get Started
-</button>
+    <span class="description">
+        <p class="course-description">
+            In this course, we'll learn the skills you need to become a developer.
+        </p>  
+    </span>
+    
+    <div class="button">
+        
+        <button class="get-started-button">
+            Get Started
+        </button>
+    
+    </div>
+
+</div>
