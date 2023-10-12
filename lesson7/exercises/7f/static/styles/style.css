@@ -1,0 +1,57 @@
+body{
+  font-family: Arial;
+  color: #444444;
+}
+
+div{
+  margin: 0px;
+}
+
+p{
+  margin: 0px;
+}
+
+.form-input{
+  margin-bottom: 15px;
+}
+
+.submit{
+  margin-bottom: 20px;
+}
+
+.email-label{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.email-textbox{
+  height: 22.5px;
+  width: 320px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.privacy-statement{
+  font-size: 13px;
+  box-align: center;
+  margin-bottom: 20px;
+}
+
+.join-button{
+  box-align: center;
+  padding: 17.5px 125px 17.5px 125px;
+  border: none;
+  border-radius: 35px;
+  color: #fdfdfe;
+  background-color: #424ABD;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.join-button:hover{
+  opacity: 0.9;
+}
+
+.join-button:active{
+  opacity: 0.8;
+}

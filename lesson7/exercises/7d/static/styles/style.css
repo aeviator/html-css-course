@@ -1,0 +1,9 @@
+.searchbox{
+  height: 40px;
+  font-size: 20px;
+  border: solid 0.5px silver;
+  border-radius: 10px;
+  box-align: center;
+  padding-left: 15px;
+  font-family: Arial;
+}

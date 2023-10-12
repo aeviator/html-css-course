@@ -1,0 +1,41 @@
+.tweet{
+  object-position: justify;
+  font-family: Arial;
+}
+
+.profile-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tweet-desc{
+  border: none;
+  width: 360px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.tweet-button{
+  background-color: #5487eb;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 9.5px 11.5px 7.5px 12.5px;
+  border: none;
+  border-radius: 17.5px;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.tweet-button:hover{
+  opacity: 0.9;
+}
+
+.tweet-button:active{
+  opacity: 0.8;
+}
