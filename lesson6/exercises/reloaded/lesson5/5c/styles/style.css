@@ -1,0 +1,50 @@
+  .text{
+      font-family: Verdana;
+      margin: 0 0;
+  }
+
+  .button{
+      margin: 0 0;
+      text-align: left;
+  }
+
+  .course-title{
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: -15px;
+  }
+
+  .tagline{
+      font-size: 18px; 
+      color: #606060;
+  }
+
+  .course-description{
+      font-size: 18px; 
+      width: 360px;
+      margin-bottom: 20px;
+  }
+
+  .get-started-button{
+      font-family: Verdana;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: 
+          opacity 0.15s,
+          box-shadow 0.12s;
+  }
+
+  .get-started-button:hover{
+      opacity: 0.8;
+      box-shadow: 2px 4px 4px 2px #00000030;
+  }
+
+  .get-started-button:active{
+      opacity: 0.6;
+      margin: 2px 4px;
+      box-shadow: none;
+  }

@@ -1,0 +1,36 @@
+  button{
+    background-color: green;
+    color: white;
+    font-family: Arial;
+    font-size: large;
+    border: none;
+    margin: 0px 12px;
+    cursor: pointer;
+  }
+
+  .one{
+    padding: 8.5px 21px;
+  }
+
+  .one:hover{
+    padding: 8.5px 32px;
+    margin: 0px 1px;
+  }
+
+  .two{
+    padding: 8.5px 21px;
+  }
+
+  .two:hover{
+    padding: 8.5px 32px;
+    margin: 0px 1px;
+  }
+
+  .three{
+    padding: 8.5px 15.5px;
+  }
+
+  .three:hover{
+    padding: 8.5px 26.5px;
+    margin: 0px 1px;
+  }

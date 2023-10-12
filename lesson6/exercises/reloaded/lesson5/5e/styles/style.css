@@ -1,0 +1,49 @@
+  .text{
+      font-family: Arial;
+      text-align: center;
+  }
+
+  .new-tag{
+      color: #EB5C0F;
+      margin: 0 0;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 6px;
+  }
+
+  .product-name{
+      font-weight: bold;
+      font-size: 24px;
+      margin: 0 0;
+  }
+
+  .product-description{
+      font-weight: bold;
+      font-size: 42px;
+      margin: 0 0;
+  }
+
+  .product-price{
+      margin: 15px 0;
+  }
+
+  .buy-button{
+      text-align: center;
+      background-color: #4D4BDD;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 16px;
+      font-family: Arial;
+      font-weight: bold;
+      padding: 6px 12px;
+      cursor: pointer;
+      transition: opacity 0.20ms;
+  }
+
+  .buy-button:hover{
+      opacity: 0.95;
+  }
+
+  .buy-button:active{
+      opacity: 0.75;
+  }

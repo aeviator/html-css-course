@@ -1,0 +1,35 @@
+p{
+  font-family: Arial;
+  margin: 0 0;
+}
+
+.current-value{
+  margin-bottom: 2.5px;
+}
+
+.current-price{
+  color: #000000;
+  font-size: 36px;
+}
+
+.currency{
+  color: #656566;
+  font-size: 17px;
+}
+
+.change-today{
+  margin-top: 2.5px;
+  margin-bottom: 6px;
+}
+
+.rate-of-change{
+  color: #087F31;
+}
+
+.predicted-price{
+  color: #656566;
+}
+
+.predicted-growth{
+  color: #E0001B;
+}
