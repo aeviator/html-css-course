@@ -1,0 +1,38 @@
+.form-input{
+  height: 42px;
+  width: 137px;
+  font-size: 15px;
+  font-family: Arial;
+  border-radius: 6px;
+  padding-left: 15px;
+  border: solid 0.5px;
+  border-color: silver;
+  margin: 5px 0.5px 5px 0.5px;
+}
+
+#email{
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.sign-up{
+  background-color: #564CED;
+  padding: 17.5px 127px 17.5px 127px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17.5px;
+  cursor: pointer;
+  transition: opacity 120ms;
+}
+
+.sign-up:hover{
+  opacity: 0.95;
+}
+
+.sign-up:active{
+  opacity:0.90;
+}
