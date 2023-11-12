@@ -1,0 +1,14 @@
+.feedback{
+  border: 1px solid;
+  border-radius: 2px;
+  border-color: #969696;
+  padding: 10px 10px 10px 20px;
+  font-family: Arial;
+  width: 300px;
+}
+
+.form-button{
+  font-family: Arial;
+  padding: 2px 2px 2px 2px;
+  margin-bottom: 10px;
+}
