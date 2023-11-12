@@ -1,6 +1,14 @@
 .thumbnail{
+    display: block;
     width: 300px;
 }
 
 .search-bar{
+}
+
+.video-title{
+    width: 300px;
+}
+
+.video-author, .video-stats{
 }
