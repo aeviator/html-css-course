@@ -1,6 +1,6 @@
 .google-search{
   height: 40px;
-  width: 480px;
+  width: 600px;
   font-size: 17px;
   font-family: Arial;
   border-radius: 40px;
@@ -12,5 +12,5 @@
 .google-logo{
   width: 300px;
   display: block;
-  margin: 20px 100px 20px 100px;
+  margin: 20px 200px 20px 160px;
 }
